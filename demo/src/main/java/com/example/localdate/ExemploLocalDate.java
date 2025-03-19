@@ -20,6 +20,8 @@ public class ExemploLocalDate {
 
         LocalDate outraData = LocalDate.of(2025, Month.MARCH, 10);
         System.out.println(outraData);
+        System.out.println(outraData.isLeapYear());
+        System.out.println(outraData.lengthOfMonth());
         
 
         
